@@ -1,4 +1,4 @@
-name: Parse Channels, Split & Base64
+name: Run Python script and push changes
 
 on:
   push:
@@ -8,7 +8,7 @@ on:
 
   workflow_dispatch:
   schedule:
-    - cron: "*/30 * * * *"
+    - cron: "30 * * * *"
 jobs:
   run_python_and_push:
 
@@ -17,46 +17,21 @@ jobs:
     steps:
     - uses: actions/checkout@v2
     
-    - name: Create timestamped directory
-      run: |
-        mkdir -p ./archives/$(date +'%Y%m')
-        mkdir -p ./archives/$(date +'%Y%m')/$(date +'%Y-%m-%d_%H-%M-%S')
-        mkdir -p ./archives/channels/$(date +'%Y%m')/$(date +'%Y-%m-%d_%H-%M-%S')
-        cp splitted/mixed ./archives/$(date +'%Y%m')/$(date +'%Y-%m-%d_%H-%M-%S')/
-        cp telegramchannels.json ./archives/channels/$(date +'%Y%m')/$(date +'%Y-%m-%d_%H-%M-%S')/
-#        > configtg.txt
-#        cp archives/channels/telegramchannels.json ./
-#       Empty configtg and replace desired channels instead. Only activate when needed.
-
-    - name: Grab content and update backup
-      run: |
-        curl https://raw.githubusercontent.com/Surfboardv2ray/TGParse/main/splitted/mixed -o archives/latest_backup/mixed
-
-    - name: Commit and push if there are changes
-      run: |
-        git config --global user.name 'Github Action'
-        git config --global user.email 'Action@github.com'
-        git add .
-        git commit -m "Archived backups"
-        git push
-    
-    
-    - name: Set up Parser
+    - name: Set up Python
       uses: actions/setup-python@v2
       with:
         python-version: '3.x'
 
 
-    - name: Install Parser dependencies
+    - name: Install dependencies
       run: |
         python -m pip install --upgrade pip
         pip install -r requirements.txt
         
-
-    - name: Run Parser
+    - name: Run Script
       env:
           THRD_PARS: '128'
-          PARS_DP: '3'
+          PARS_DP: '2'
           USE_INV_TC: 'n'
       run: |
         python tg-parser.py
@@ -65,104 +40,9 @@ jobs:
       run: |
         git config --local user.name "GitHub Action"
         git config --local user.email "action@github.com"
-
-    - name: Commit & push Parser
+    - name: Commit & push
       run: |
         git add .
         git commit -m "Update files"
         git pull
         git push
-
-    - name: Set up Splitter
-      uses: actions/setup-python@v2
-      with:
-        python-version: '3.x'
-
-  
-    - name: Split UTF-8 and update subscriptions
-      run: |
-        python python/splitter.py
-
-    - name: Check for split changes
-      id: changes
-      run: |
-        git diff --quiet && echo 'No changes' || echo '::set-output name=changed::true'
-
-    - name: Commit and push splitted
-      if: steps.changes.outputs.changed == 'true'
-      run: |
-          git config --local user.email "action@github.com"
-          git config --local user.name "GitHub Action"
-          git add python/vmess python/vless python/trojan python/ss python/socks python/hysteria2 python/hy2 python/tuic
-          git commit -am "Update v2ray subscriptions"
-          git push
-
-    - name: Convert mixed to base64
-      run: |
-          content=$(cat configtg.txt | base64| tr -d '\n')
-            echo "$content" > splitted/mixed
-
-    - name: Convert socks to base64
-      run: |
-          content=$(cat python/socks | base64| tr -d '\n')
-            echo "$content" > splitted/socks
-
-    - name: Convert ss to base64
-      run: |
-          content=$(cat python/ss | base64| tr -d '\n')
-            echo "$content" > splitted/ss
-
-    - name: Convert trojan to base64
-      run: |
-          content=$(cat python/trojan | base64| tr -d '\n')
-            echo "$content" > splitted/trojan
-
-    - name: Convert vless to base64
-      run: |
-          content=$(cat python/vless | base64| tr -d '\n')
-            echo "$content" > splitted/vless
-
-    - name: Convert vmess to base64
-      run: |
-          content=$(cat python/vmess | base64| tr -d '\n')
-            echo "$content" > splitted/vmess
-
-    - name: Convert tuic to base64
-      run: |
-          content=$(cat python/tuic | base64| tr -d '\n')
-            echo "$content" > splitted/tuic
-
-    - name: Convert hysteria2 to base64
-      run: |
-          content=$(cat python/hysteria2 | base64| tr -d '\n')
-            echo "$content" > splitted/hysteria2
-
-    - name: Convert hy2 to base64
-      run: |
-          content=$(cat python/hy2 | base64| tr -d '\n')
-            echo "$content" > splitted/hy2
-
-    - name: Convert hysteria to base64
-      run: |
-          content=$(cat python/hysteria | base64| tr -d '\n')
-            echo "$content" > splitted/hysteria
-
-    - name: Convert naive to base64
-      run: |
-          content=$(cat python/naive | base64| tr -d '\n')
-            echo "$content" > splitted/naive
-       
-    - name: Check for Base64 Changes
-      id: changes64
-      run: |
-            git diff --quiet && echo 'No changes' || echo '::set-output name=changed::true'   
-      
-    - name: Commit and push Base64
-      if: steps.changes.outputs.changed == 'true'   
-      run: |
-          git config --local user.email "action@github.com"
-          git config --local user.name "GitHub Action"
-          git add splitted/mixed
-          git add splitted/*
-          git commit --allow-empty -m "Update output files"
-          git push
