@@ -139,7 +139,7 @@ def process(i_url):
             try:
                 response = requests.get(f'https://t.me/s/{cur_url}')
             except:
-                time.sleep(random.randint(150,250))
+                time.sleep(random.randint(5,10))
                 pass
             else:
                 if itter == pars_dp:
