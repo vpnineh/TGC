@@ -44,21 +44,36 @@ inv_tg_name_json = json_load('invalidtelegramchannels.json')
 inv_tg_name_json[:] = [x for x in inv_tg_name_json if len(x) >= 5]
 inv_tg_name_json = list(set(inv_tg_name_json)-set(tg_name_json))
 
-thrd_pars = int(os.getenv('THRD_PARS', '128'))
+# Get the environment variable
+thrd_pars = os.getenv('THRD_PARS')
 
+# Convert to integer if not None, else assign None
+thrd = int(thrd_pars) if thrd_pars is not None else None
 
-pars_dp = int(os.getenv('PARS_DP', '1'))
+# Check if thrd is an integer
+if isinstance(thrd, int):
+    sem_pars = threading.Semaphore(thrd)
+else:
+    print("Invalid input! Please set THRD_PARS to an integer.")
+
+# Print the integer value
+print("Threads:", thrd)
+
+pars_dp = os.getenv('PARS_DP')
+pars_dp = int(pars_dp) if pars_dp is not None else None
+print("Parsing depth where 1dp equals 20 last tg posts:", pars_dp)
 
 print(f'\nTotal channel names in telegramchannels.json         - {len(tg_name_json)}')
 print(f'Total channel names in invalidtelegramchannels.json - {len(inv_tg_name_json)}')
 
 
-use_inv_tc = os.getenv('USE_INV_TC', 'n')
-use_inv_tc = True if use_inv_tc.lower() == 'y' else False
+use_inv_tc = os.getenv('USE_INV_TC')
+# Validate the value
+if use_inv_tc not in {"y", "n"}:
+    raise ValueError("Invalid value. Expected 'y' or 'n'.")
+print()
 
 start_time = datetime.now()
-
-sem_pars = threading.Semaphore(thrd_pars)
 
 config_all = list()
 tg_name = list()
