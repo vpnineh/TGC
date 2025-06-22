@@ -20,8 +20,8 @@ requests.packages.urllib3.disable_warnings(requests.packages.urllib3.exceptions.
 
 os.system('cls' if os.name == 'nt' else 'clear')
 
-if not os.path.exists('configtg.txt'):
-    with open('configtg.txt', 'w'): pass
+if not os.path.exists('sub'):
+    with open('sub', 'w'): pass
 
 def json_load(path):
     with open(path, 'r', encoding="utf-8") as file:
@@ -65,9 +65,9 @@ config_all = list()
 tg_name = list()
 new_tg_name_json = list()
 
-print(f'Try get new tg channels name from proxy configs in configtg.txt...')
+print(f'Try get new tg channels name from proxy configs in sub...')
 
-with open("configtg.txt", "r", encoding="utf-8") as config_all_file:
+with open("sub", "r", encoding="utf-8") as config_all_file:
     config_all = config_all_file.readlines()
 
 pattern_telegram_user = r'(?:@)(\w{5,})|(?:%40)(\w{5,})|(?:t\.me\/)(\w{5,})'
@@ -287,7 +287,7 @@ print(f'\nRemaining tg channels after deletion - {len(new_tg_name_json)}')
 inv_tg_name_json = list(set(inv_tg_name_json))
 inv_tg_name_json = sorted(inv_tg_name_json)
 
-print(f'\nSave new telegramchannels.json, invalidtelegramchannels.json and configtg.txt...')
+print(f'\nSave new telegramchannels.json, invalidtelegramchannels.json and sub...')
 
 with open('telegramchannels.json', 'w', encoding="utf-8") as telegram_channels_file:
     json.dump(new_tg_name_json, telegram_channels_file, indent = 4)
@@ -295,7 +295,7 @@ with open('telegramchannels.json', 'w', encoding="utf-8") as telegram_channels_f
 with open('invalidtelegramchannels.json', 'w', encoding="utf-8") as inv_telegram_channels_file:
     json.dump(inv_tg_name_json, inv_telegram_channels_file, indent = 4)
 
-with open("configtg.txt", "w", encoding="utf-8") as file:
+with open("sub", "w", encoding="utf-8") as file:
     for code in processed_codes:
         file.write(code.encode("utf-8").decode("utf-8") + "\n")
 
