@@ -6,8 +6,6 @@ import time
 import random
 import re
 import base64
-import argparse
-
 from bs4 import BeautifulSoup
 from datetime import datetime, timedelta
 
@@ -22,8 +20,8 @@ requests.packages.urllib3.disable_warnings(requests.packages.urllib3.exceptions.
 
 os.system('cls' if os.name == 'nt' else 'clear')
 
-if not os.path.exists('sub'):
-    with open('sub', 'w'): pass
+if not os.path.exists('configtg.txt'):
+    with open('configtg.txt', 'w'): pass
 
 def json_load(path):
     with open(path, 'r', encoding="utf-8") as file:
@@ -44,44 +42,32 @@ inv_tg_name_json = json_load('invalidtelegramchannels.json')
 inv_tg_name_json[:] = [x for x in inv_tg_name_json if len(x) >= 5]
 inv_tg_name_json = list(set(inv_tg_name_json)-set(tg_name_json))
 
-# Get the environment variable
-thrd_pars = os.getenv('THRD_PARS')
-
-# Convert to integer if not None, else assign None
-thrd = int(thrd_pars) if thrd_pars is not None else None
-
-# Check if thrd is an integer
-if isinstance(thrd, int):
-    sem_pars = threading.Semaphore(thrd)
-else:
-    print("Invalid input! Please set THRD_PARS to an integer.")
-
-# Print the integer value
-print("Threads:", thrd)
-
-pars_dp = os.getenv('PARS_DP')
-pars_dp = int(pars_dp) if pars_dp is not None else None
-print("Parsing depth where 1dp equals 20 last tg posts:", pars_dp)
+thrd_pars = int(input('\nThreads for parsing: '))
+pars_dp = int(input('\nParsing depth (1dp = 20 last tg posts): '))
 
 print(f'\nTotal channel names in telegramchannels.json         - {len(tg_name_json)}')
 print(f'Total channel names in invalidtelegramchannels.json - {len(inv_tg_name_json)}')
 
-
-use_inv_tc = os.getenv('USE_INV_TC')
-# Validate the value
-if use_inv_tc not in {"y", "n"}:
-    raise ValueError("Invalid value. Expected 'y' or 'n'.")
+while (use_inv_tc := input('\nTry looking for proxy configs from "invalidtelegramchannels.json" too? (Enter y/n): ').lower()) not in {"y", "n"}: pass
 print()
 
 start_time = datetime.now()
+
+if use_inv_tc == 'y':
+    tg_name_json.extend(inv_tg_name_json)
+    inv_tg_name_json.clear()
+    tg_name_json = list(set(tg_name_json))
+    tg_name_json = sorted(tg_name_json)
+
+sem_pars = threading.Semaphore(thrd_pars)
 
 config_all = list()
 tg_name = list()
 new_tg_name_json = list()
 
-print(f'Try get new tg channels name from proxy configs in sub...')
+print(f'Try get new tg channels name from proxy configs in configtg.txt...')
 
-with open("sub", "r", encoding="utf-8") as config_all_file:
+with open("configtg.txt", "r", encoding="utf-8") as config_all_file:
     config_all = config_all_file.readlines()
 
 pattern_telegram_user = r'(?:@)(\w{5,})|(?:%40)(\w{5,})|(?:t\.me\/)(\w{5,})'
@@ -122,6 +108,8 @@ tg_name_json = list(set(tg_name_json))
 tg_name_json = sorted(tg_name_json)
 print(f'In the end, new names  - {len(tg_name_json)}')
 
+with open('telegramchannels.json', 'w', encoding="utf-8") as telegram_channels_file:
+    json.dump(tg_name_json, telegram_channels_file, indent = 4)
 
 print(f'\nSearch for new names is over - {str(datetime.now() - start_time).split(".")[0]}')
 
@@ -137,7 +125,7 @@ def process(i_url):
             try:
                 response = requests.get(f'https://t.me/s/{cur_url}')
             except:
-                time.sleep(random.randint(50,150))
+                time.sleep(random.randint(5,25))
                 pass
             else:
                 if itter == pars_dp:
@@ -289,17 +277,29 @@ processed_codes = list(set(new_processed_codes))
 #processed_codes = list(set(processed_codes))
 processed_codes = sorted(processed_codes)
 
+print(f'\nDelete tg channels that not contains proxy configs...')
 
+new_tg_name_json = list(set(new_tg_name_json))
+new_tg_name_json = sorted(new_tg_name_json)
+
+print(f'\nRemaining tg channels after deletion - {len(new_tg_name_json)}')
 
 inv_tg_name_json = list(set(inv_tg_name_json))
 inv_tg_name_json = sorted(inv_tg_name_json)
 
-print(f'\nSave new telegramchannels.json, invalidtelegramchannels.json and sub...')
+print(f'\nSave new telegramchannels.json, invalidtelegramchannels.json and configtg.txt...')
 
+with open('telegramchannels.json', 'w', encoding="utf-8") as telegram_channels_file:
+    json.dump(new_tg_name_json, telegram_channels_file, indent = 4)
 
-with open("sub", "w", encoding="utf-8") as file:
+with open('invalidtelegramchannels.json', 'w', encoding="utf-8") as inv_telegram_channels_file:
+    json.dump(inv_tg_name_json, inv_telegram_channels_file, indent = 4)
+
+with open("configtg.txt", "w", encoding="utf-8") as file:
     for code in processed_codes:
         file.write(code.encode("utf-8").decode("utf-8") + "\n")
 
 print(f'\nTime spent - {str(datetime.now() - start_time).split(".")[0]}')
 #print(f'\nTime spent - {timedelta(seconds=int((datetime.now() - start_time).total_seconds()))}')
+
+input('\nPress Enter to finish ...')
