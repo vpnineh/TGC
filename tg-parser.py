@@ -303,12 +303,6 @@ inv_tg_name_json = sorted(inv_tg_name_json)
 
 print(f'\nSave new telegramchannels.json, invalidtelegramchannels.json and sub...')
 
-with open('telegramchannels.json', 'w', encoding="utf-8") as telegram_channels_file:
-    json.dump(new_tg_name_json, telegram_channels_file, indent = 4)
-
-with open('invalidtelegramchannels.json', 'w', encoding="utf-8") as inv_telegram_channels_file:
-    json.dump(inv_tg_name_json, inv_telegram_channels_file, indent = 4)
-
 with open("sub", "w", encoding="utf-8") as file:
     for code in processed_codes:
         file.write(code.encode("utf-8").decode("utf-8") + "\n")
