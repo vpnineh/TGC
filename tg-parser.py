@@ -77,7 +77,6 @@ start_time = datetime.now()
 
 config_all = list()
 tg_name = list()
-new_tg_name_json = list()
 
 print(f'Try get new tg channels name from proxy configs in sub...')
 
@@ -139,7 +138,7 @@ def process(i_url):
             try:
                 response = requests.get(f'https://t.me/s/{cur_url}')
             except:
-                time.sleep(random.randint(5,10))
+                time.sleep(random.randint(5,25))
                 pass
             else:
                 if itter == pars_dp:
@@ -158,7 +157,6 @@ def process(i_url):
             for code_content in code_content2:
                 if "vless://" in code_content or "ss://" in code_content or "vmess://" in code_content or "trojan://" in code_content or "tuic://" in code_content or "hysteria://" in code_content or "hy2://" in code_content or "hysteria2://" in code_content or "juicity://" in code_content or "nekoray://" in code_content or "socks4://" in code_content or "socks5://" in code_content or "socks://" in code_content or "naive+" in code_content:
                     codes.append(re.sub(htmltag_pattern, '', code_content))
-                    new_tg_name_json.append(i_url)
                     god_tg_name = True                    
     if not god_tg_name:
         inv_tg_name_json.append(i_url)
@@ -291,23 +289,6 @@ processed_codes = list(set(new_processed_codes))
 #processed_codes = list(set(processed_codes))
 processed_codes = sorted(processed_codes)
 
-print(f'\nDelete tg channels that not contains proxy configs...')
-
-new_tg_name_json = list(set(new_tg_name_json))
-new_tg_name_json = sorted(new_tg_name_json)
-
-print(f'\nRemaining tg channels after deletion - {len(new_tg_name_json)}')
-
-inv_tg_name_json = list(set(inv_tg_name_json))
-inv_tg_name_json = sorted(inv_tg_name_json)
-
-print(f'\nSave new telegramchannels.json, invalidtelegramchannels.json and sub...')
-
-with open('telegramchannels.json', 'w', encoding="utf-8") as telegram_channels_file:
-    json.dump(new_tg_name_json, telegram_channels_file, indent = 4)
-
-with open('invalidtelegramchannels.json', 'w', encoding="utf-8") as inv_telegram_channels_file:
-    json.dump(inv_tg_name_json, inv_telegram_channels_file, indent = 4)
 
 with open("sub", "w", encoding="utf-8") as file:
     for code in processed_codes:
