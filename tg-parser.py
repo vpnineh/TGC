@@ -289,12 +289,7 @@ processed_codes = list(set(new_processed_codes))
 #processed_codes = list(set(processed_codes))
 processed_codes = sorted(processed_codes)
 
-print(f'\nDelete tg channels that not contains proxy configs...')
 
-new_tg_name_json = list(set(new_tg_name_json))
-new_tg_name_json = sorted(new_tg_name_json)
-
-print(f'\nRemaining tg channels after deletion - {len(new_tg_name_json)}')
 
 inv_tg_name_json = list(set(inv_tg_name_json))
 inv_tg_name_json = sorted(inv_tg_name_json)
