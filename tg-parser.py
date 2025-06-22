@@ -6,6 +6,8 @@ import time
 import random
 import re
 import base64
+import argparse
+
 from bs4 import BeautifulSoup
 from datetime import datetime, timedelta
 
@@ -42,24 +44,36 @@ inv_tg_name_json = json_load('invalidtelegramchannels.json')
 inv_tg_name_json[:] = [x for x in inv_tg_name_json if len(x) >= 5]
 inv_tg_name_json = list(set(inv_tg_name_json)-set(tg_name_json))
 
-thrd_pars = int(input('\nThreads for parsing: '))
-pars_dp = int(input('\nParsing depth (1dp = 20 last tg posts): '))
+# Get the environment variable
+thrd_pars = os.getenv('THRD_PARS')
+
+# Convert to integer if not None, else assign None
+thrd = int(thrd_pars) if thrd_pars is not None else None
+
+# Check if thrd is an integer
+if isinstance(thrd, int):
+    sem_pars = threading.Semaphore(thrd)
+else:
+    print("Invalid input! Please set THRD_PARS to an integer.")
+
+# Print the integer value
+print("Threads:", thrd)
+
+pars_dp = os.getenv('PARS_DP')
+pars_dp = int(pars_dp) if pars_dp is not None else None
+print("Parsing depth where 1dp equals 20 last tg posts:", pars_dp)
 
 print(f'\nTotal channel names in telegramchannels.json         - {len(tg_name_json)}')
 print(f'Total channel names in invalidtelegramchannels.json - {len(inv_tg_name_json)}')
 
-while (use_inv_tc := input('\nTry looking for proxy configs from "invalidtelegramchannels.json" too? (Enter y/n): ').lower()) not in {"y", "n"}: pass
+
+use_inv_tc = os.getenv('USE_INV_TC')
+# Validate the value
+if use_inv_tc not in {"y", "n"}:
+    raise ValueError("Invalid value. Expected 'y' or 'n'.")
 print()
 
 start_time = datetime.now()
-
-if use_inv_tc == 'y':
-    tg_name_json.extend(inv_tg_name_json)
-    inv_tg_name_json.clear()
-    tg_name_json = list(set(tg_name_json))
-    tg_name_json = sorted(tg_name_json)
-
-sem_pars = threading.Semaphore(thrd_pars)
 
 config_all = list()
 tg_name = list()
@@ -125,7 +139,7 @@ def process(i_url):
             try:
                 response = requests.get(f'https://t.me/s/{cur_url}')
             except:
-                time.sleep(random.randint(5,25))
+                time.sleep(random.randint(150,250))
                 pass
             else:
                 if itter == pars_dp:
@@ -301,5 +315,3 @@ with open("sub", "w", encoding="utf-8") as file:
 
 print(f'\nTime spent - {str(datetime.now() - start_time).split(".")[0]}')
 #print(f'\nTime spent - {timedelta(seconds=int((datetime.now() - start_time).total_seconds()))}')
-
-input('\nPress Enter to finish ...')
