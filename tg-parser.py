@@ -78,50 +78,6 @@ start_time = datetime.now()
 config_all = list()
 tg_name = list()
 
-print(f'Try get new tg channels name from proxy configs in sub...')
-
-with open("sub", "r", encoding="utf-8") as config_all_file:
-    config_all = config_all_file.readlines()
-
-pattern_telegram_user = r'(?:@)(\w{5,})|(?:%40)(\w{5,})|(?:t\.me\/)(\w{5,})'
-pattern_datbef = re.compile(r'(?:data-before=")(\d*)')
-
-for config in config_all:
-    if config.startswith('vmess://'):
-        try:
-            config = base64.b64decode(config[8:]).decode("utf-8")
-        except:
-            pass
-    if config.startswith('ssr://'):
-        try:
-            config = base64.b64decode(config[6:]).decode("utf-8")
-        except:
-            pass
-    matches_usersname = re.findall(pattern_telegram_user, config, re.IGNORECASE)
-    try:
-        matches_usersname = re.findall(pattern_telegram_user, base64.b64decode(config).decode("utf-8"), re.IGNORECASE)
-    except:
-        pass
-    
-    for index, element in enumerate(matches_usersname):
-        if element[0] != '':
-            tg_name.append(element[0].lower().encode('ascii', 'ignore').decode())
-        if element[1] != '':
-            tg_name.append(element[1].lower().encode('ascii', 'ignore').decode())
-        if element[2] != '':
-            tg_name.append(element[2].lower().encode('ascii', 'ignore').decode())             
-
-tg_name[:] = [x for x in tg_name if len(x) >= 5]
-tg_name_json[:] = [x for x in tg_name_json if len(x) >= 5]    
-tg_name = list(set(tg_name))
-print(f'\nFound tg channel names - {len(tg_name)}')
-print(f'Total old names        - {len(tg_name_json)}')
-tg_name_json.extend(tg_name)
-tg_name_json = list(set(tg_name_json))
-tg_name_json = sorted(tg_name_json)
-print(f'In the end, new names  - {len(tg_name_json)}')
-
-
 
 print(f'\nSearch for new names is over - {str(datetime.now() - start_time).split(".")[0]}')
 
