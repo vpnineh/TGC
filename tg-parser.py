@@ -122,6 +122,8 @@ tg_name_json = list(set(tg_name_json))
 tg_name_json = sorted(tg_name_json)
 print(f'In the end, new names  - {len(tg_name_json)}')
 
+with open('telegram channels.json', 'w', encoding="utf-8") as telegram_channels_file:
+    json.dump(tg_name_json, telegram_channels_file, indent = 4)
 
 print(f'\nSearch for new names is over - {str(datetime.now() - start_time).split(".")[0]}')
 
