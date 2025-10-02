@@ -345,9 +345,11 @@ trojan://NISHIKUITAN222@104.18.253.136:443?allowInsecure=1&ws=1&wspath=/#t.me/en
 trojan://NISHIKUITAN222@104.18.87.210:443?allowInsecure=1&ws=1&wspath=/#t.me/entryNET/config=1844822261814643
 trojan://NISHIKUITAN222@104.19.225.155:443?#خرید وی پی ان ارزان @NoraPingBot
 trojan://NISHIKUITAN222@104.20.217.33:443?allowInsecure=1&ws=1&wspath=/#t.me/entryNET/config=1844829113181152
+trojan://NISHIKUITAN222@104.24.149.225:443?allowInsecure=1&ws=1&wspath=/#t.me/entryNET/config=1844836913550627
 trojan://NISHIKUITAN222@104.25.239.1:443?allowInsecure=1&ws=1&wspath=/#t.me/entryNET/config=1844832888471963
 trojan://NISHIKUITAN222@188.114.97.25:443?allowInsecure=1&ws=1&wspath=/#t.me/entryNET/config=1844817788764393
-trojan://NISHIKUITAN222@198.41.209.227:443?allowInsecure=1&ws=1&wspath=/#t.me/entryNET/config=1844814013899776
+trojan://NISHIKUITAN222@188.114.99.239:443?allowInsecure=1&ws=1&wspath=/#t.me/entryNET/config=1844836662972129
+trojan://NISHIKUITAN222@190.93.244.229:443?allowInsecure=1&ws=1&wspath=/#t.me/entryNET/config=1844836851670776
 trojan://NeA9Y8cXve@flopr.isvcloud2.ir:36022?security=none&headerType=&type=tcp#telegram@ISVvpn
 trojan://OSXRComila@91.107.252.182:26805?type=tcp&security=none#telegram-@ISVvpn
 trojan://PKsmz7W2sx@mashti.isvcloud2.ir:1010?type=tcp&path=/ISVvpn&host=fonts.gstatic.com&headerType=http&security=none#telegram-@ISVvpn
@@ -1618,8 +1620,6 @@ vless://616c06f7-7730-4001-8878-a7a2fc8d7faf@151.101.3.8:80?type=ws&host=befreew
 vless://620e7ed5-111a-49fe-baec-f7938bb74ef3@ALL-CUSTOMVPNSERVER.IPSTOREIRAN.COM:80?path=/@CUSTOMVPNSERVER-@CUSTOMVPNSERVER-@CUSTOMVPNSERVER-@CUSTOMVPNSERVER-@CUSTOMVPNSERVER-@CUSTOMVPNSERVER-@CUSTOMVPNSERVER-@CUSTOMVPNSERVER&security=none&encryption=none&host=V2ray.digikala.com-mykit.ir.nobitex.com.IMhyW5477e.CUSTOMVPNSERVER.OnlInEdowNloadERfile.com.&type=ws#ALL+@CUSTOMVPNSERVER
 vless://624c4065-f2c9-49d9-9a9d-be0182ed4c25@Filter5050.nabxcsjghjs2004.shop:22113?type=grpc&serviceName=&security=reality&fp=chrome&pbk=NY4vf2xmEysVkOcgDnGASs9E_kJS1QxqRo7uFSzwh3g&sni=cdn.discordapp.com&sid=a7cf4983&spx=/#Filter5050-Test
 vless://6261b90d-3268-4a3d-b02a-16329e0a4a9a@dl.de3.azarbanou.ir:5055/?security=none&encryption=none&host=bmw.com&headerType=http&type=tcp#t.me/entryNET/config=1844825778628991
-vless://6261b90d-3268-4a3d-b02a-16329e0a4a9a@dl.de3.azarbanou.ir:5055?security=none&encryption=none&host=bmw.com&headerType=http&type=tcp#t.me/entryNET/config=1844813635797804
-vless://6261b90d-3268-4a3d-b02a-16329e0a4a9a@dl.nl.azarbanou.ir:5055?security=none&encryption=none&host=bmw.com&headerType=http&type=tcp#t.me/entryNET/config=1844813699645224
 vless://636a7036-3875-4886-a32d-161bd65b1deb@Evay_vpn.heloisfood.ir:1530?type=xhttp&mode=auto&host=evay.com&path=/@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn&security=reality&fp=chrome&sni=stackoverflow.com&pbk=l_LBBQyt6du7ZgBadETGtx8zLgUd36-4mZVCSI9qqwA&sid=077dc29a23d311f2#2🇫🇮 @Evay_vpn
 vless://642e6bda-e2d2-4a2d-8a06-b74e4393fa76@91.107.179.250:40079?encryption=none&security=none&type=tcp&headerType=none#@Daily_Configs
 vless://642e6bda-e2d2-4a2d-8a06-b74e4393fa76@91.107.179.250:40079?security=none&encryption=none&host=vpnpro.synergize.co&headerType=none&type=tcp#@configfars🇩🇪
