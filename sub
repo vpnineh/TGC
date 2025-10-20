@@ -342,7 +342,6 @@ ss://YWVzLTI1Ni1nY206NDI5OTQzMGMtNmY5YS00ODZjLWI1YTctY2E4MjVkZjVhMjU2@45.134.13.
 ss://YWVzLTI1Ni1nY206QUp0VjRWQ0xhVlFVS0dINGcxQURTeXF2ekNBMG1TcE40NmFuMTJaZUlLaHg@216.132.112.116:34958#@Geek_Spot
 ss://YWVzLTI1Ni1nY206S2l4THZLendqZWtHMDBybQ==@23.150.152.16:5500#خرید وی پی ان ارزان @NoraPingBot
 ss://YWVzLTI1Ni1nY206TWpRY3Z4Q0Z3M2hCMFEwNXY3K0RTWVlqRU45QVZPWStMTUQwWFJrSkVqWT0=@152.42.254.253:30262#🌟T.me/Asak_Vpn🌟
-ss://YWVzLTI1Ni1nY206UENubkg2U1FTbmZvUzI3@38.110.1.203:8090#خرید وی پی ان ارزان @NoraPingBot
 ss://YWVzLTI1Ni1nY206UmV4bkJnVTdFVjVBRHhH@23.150.152.112:7002#خرید وی پی ان ارزان @NoraPingBot
 ss://YWVzLTI1Ni1nY206WTZSOXBBdHZ4eHptR0M=@139.64.165.63:5001#t.me/entryNET/config=1846472506694174
 ss://YWVzLTI1Ni1nY206ZGFkYTA4MDE=@54.157.30.50:80#@MARAMBASHI 🇧🇷
@@ -402,6 +401,7 @@ trojan://telegram-id-directvpn@15.236.214.234:22223?security=tls&alpn=http/1.1&h
 trojan://telegram-id-directvpn@15.237.152.121:22223?security=tls&alpn=http/1.1&headerType=none&type=tcp&sni=trojan.burgerip.co.uk#OurChannel : @DirectVPN
 trojan://telegram-id-directvpn@18.157.95.142:22223?security=tls&alpn=http/1.1&headerType=none&type=tcp&sni=trojan.burgerip.co.uk#OurChannel : @DirectVPN
 trojan://telegram-id-directvpn@3.121.146.203:22223?security=tls&alpn=http/1.1&headerType=none&type=tcp&sni=trojan.burgerip.co.uk#OurChannel : @DirectVPN
+trojan://telegram-id-directvpn@3.124.85.81:22223?security=tls&alpn=http/1.1&headerType=none&type=tcp&sni=trojan.burgerip.co.uk#OurChannel : @DirectVPN
 trojan://telegram-id-directvpn@3.127.115.87:22223?security=tls&alpn=http/1.1&headerType=none&type=tcp&sni=trojan.burgerip.co.uk#OurChannel : @DirectVPN
 trojan://telegram-id-directvpn@3.127.95.57:22223?security=tls&alpn=http/1.1&headerType=none&type=tcp&sni=trojan.burgerip.co.uk#OurChannel : @DirectVPN
 trojan://telegram-id-directvpn@3.71.198.171:22223?security=tls&alpn=http/1.1&headerType=none&type=tcp&sni=trojan.burgerip.co.uk#OurChannel : @DirectVPN
@@ -416,6 +416,7 @@ trojan://telegram-id-directvpn@52.47.174.55:22223?security=tls&alpn=http/1.1&hea
 trojan://telegram-id-directvpn@52.47.52.84:22223?security=tls&alpn=http/1.1&headerType=none&type=tcp&sni=trojan.burgerip.co.uk#OurChannel : @DirectVPN
 trojan://telegram-id-directvpn@63.177.201.129:22223?security=tls&alpn=http/1.1&headerType=none&type=tcp&sni=trojan.burgerip.co.uk#OurChannel : @DirectVPN
 trojan://telegram-id-directvpn@63.178.172.63:22223?security=tls&alpn=http/1.1&headerType=none&type=tcp&sni=trojan.burgerip.co.uk#OurChannel : @DirectVPN
+trojan://telegram-id-directvpn@63.179.170.59:22223?security=tls&alpn=http/1.1&headerType=none&type=tcp&sni=trojan.burgerip.co.uk#OurChannel : @DirectVPN
 trojan://telegram-id-directvpn@63.179.171.101:22223?security=tls&alpn=http/1.1&headerType=none&type=tcp&sni=trojan.burgerip.co.uk#OurChannel : @DirectVPN
 trojan://telegram-id-directvpn@63.179.194.196:22223?security=tls&alpn=http/1.1&headerType=none&type=tcp&sni=trojan.burgerip.co.uk#OurChannel : @DirectVPN
 trojan://telegram-id-directvpn@63.179.197.103:22223?security=tls&alpn=http/1.1&headerType=none&type=tcp&sni=trojan.burgerip.co.uk#OurChannel : @DirectVPN
@@ -497,7 +498,6 @@ vless://0478dce6-e697-4aa4-9e94-346e0bd27fc5@172.66.40.99:443?path=/@V2RAYFAST_7
 vless://0478dce6-e697-4aa4-9e94-346e0bd27fc5@193.46.81.184:48769?security=reality&encryption=none&pbk=7nXyxyyn6fSlJzPO1DFmIEUV8LAmoP58-_1zP_MKo2E&headerType=none&fp=chrome&spx=/&type=tcp&sni=miro.com&sid=177f438f#@Daily_Configs
 vless://0481141b-2807-48f9-8ebc-0b405d2f7d00@asl-uwiisjjsjdjd-7665.pages.dev:443?path=/evcszpmoerkdnesg?ed=2560fp=chrome&security=tls&encryption=none&host=asl-uwiisjjsjdjd-7665.pages.dev&fp=chrome&type=ws&sni=asl-uwiisjjsjdjd-7665.pages.dev#
 vless://0481141b-2807-48f9-8ebc-0b405d2f7d00@asl-uwiisjjsjdjd-7665.pages.dev:443?path=/evcszpmoerkdnesg?ed=2560fp=chrome&security=tls&encryption=none&host=asl-uwiisjjsjdjd-7665.pages.dev&fp=chrome&type=ws&sni=asl-uwiisjjsjdjd-7665.pages.dev#@meli_proxyy
-vless://0481141b-2807-48f9-8ebc-0b405d2f7d00@asl-uwiisjjsjdjd-7665.pages.dev:443?path=/evcszpmoerkdnesg?ed=2560fp=chrome&security=tls&encryption=none&host=asl-uwiisjjsjdjd-7665.pages.dev&fp=chrome&type=ws&sni=asl-uwiisjjsjdjd-7665.pages.dev#t.me/entryNET/config=1846441685986908
 vless://0481141b-2807-48f9-8ebc-0b405d2f7d00@asl-uwiisjjsjdjd-7665.pages.dev:443?path=/evcszpmoerkdnesg?ed=2560fp=chrome&security=tls&encryption=none&host=asl-uwiisjjsjdjd-7665.pages.dev&fp=chrome&type=ws&sni=asl-uwiisjjsjdjd-7665.pages.dev#✅ @vistav2ray  👈👈کانال ما
 vless://0481141b-2807-48f9-8ebc-0b405d2f7d00@asl-uwiisjjsjdjd-7665.pages.dev:443?path=/evcszpmoerkdnesg?ed=2560fp=chrome&security=tls&encryption=none&host=asl-uwiisjjsjdjd-7665.pages.dev&type=ws&sni=asl-uwiisjjsjdjd-7665.pages.dev#@meli_proxyy
 vless://04a68e50-8c5c-447d-8416-9cc075e78a85@91.99.117.223:443?security=none&encryption=none&host=zula.ir&headerType=http&type=tcp#💎کانفیگ های بیشتر در چنل تلگرام💎 Config_Rayegan@
@@ -607,7 +607,6 @@ vless://08cb0591-5193-4a0c-9105-ceb09fba67fe@45.131.7.186:2053?path=/&security=t
 vless://08cb0591-5193-4a0c-9105-ceb09fba67fe@45.131.7.195:2053?path=/&security=tls&encryption=none&host=AeEye-52235.zephorium.uk&fp=chrome&type=ws&sni=AeEye-52235.zephorium.uk#@meli_proxyy
 vless://08cb0591-5193-4a0c-9105-ceb09fba67fe@45.131.7.195:2053?path=/?TELEGRAM-MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI?ed=512&security=tls&encryption=none&host=AeEye-52235.zephorium.uk&fp=chrome&type=ws&sni=AeEye-52235.zephorium.uk#@MARAMBASHI ♥
 vless://08cb0591-5193-4a0c-9105-ceb09fba67fe@45.131.7.195:2053?path=/?TELEGRAM-MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI?ed=512&security=tls&encryption=none&host=AeEye-52235.zephorium.uk&fp=chrome&type=ws&sni=AeEye-52235.zephorium.uk#@meli_proxyy
-vless://08cb0591-5193-4a0c-9105-ceb09fba67fe@45.131.7.195:2053?path=/?TELEGRAM-MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI?ed=512&security=tls&encryption=none&host=AeEye-52235.zephorium.uk&fp=chrome&type=ws&sni=AeEye-52235.zephorium.uk#خرید وی پی ان ارزان @NoraPingBot
 vless://08cb0591-5193-4a0c-9105-ceb09fba67fe@45.131.7.33:2053?path=/&security=tls&encryption=none&host=AeEye-52235.zephorium.uk&type=ws&sni=AeEye-52235.zephorium.uk#limo
 vless://08cb0591-5193-4a0c-9105-ceb09fba67fe@45.131.7.71:2053?path=/&security=tls&alpn=h3,h2,http/1.1&encryption=none&host=nkGgd-87836.phoenixappdatad.uk&fp=chrome&type=ws&sni=nkGgd-87836.phoenixappdatad.uk#r♡ya
 vless://08cb0591-5193-4a0c-9105-ceb09fba67fe@45.142.120.210:2053?path=/&security=tls&alpn=h3,h2,http/1.1&encryption=none&host=nkGgd-87836.phoenixappdatad.uk&fp=chrome&type=ws&sni=nkGgd-87836.phoenixappdatad.uk#r♡ya
@@ -1314,6 +1313,7 @@ vless://401374e6-df77-41fb-f638-dad8184f175b@185.236.232.98:80?encryption=none&s
 vless://401374e6-df77-41fb-f638-dad8184f175b@185.236.232.98:80?encryption=none&security=none&type=grpc#✅ @vistav2ray  👈👈کانال ما
 vless://401374e6-df77-41fb-f638-dad8184f175b@185.236.232.98:80?mode=gun&security=&encryption=none&type=grpc#🇺🇸@FreakConfig
 vless://401374e6-df77-41fb-f638-dad8184f175b@185.236.232.98:80?mode=gun&security=none&encryption=none&authority=&type=grpc&serviceName=#@V2rayNGVPN+<=+کانفیگ+رایگان
+vless://401374e6-df77-41fb-f638-dad8184f175b@185.236.232.98:80?mode=gun&security=none&encryption=none&authority=&type=grpc&serviceName=#خرید وی پی ان ارزان @NoraPingBot
 vless://401374e6-df77-41fb-f638-dad8184f175b@185.236.232.98:80?mode=gun&security=none&encryption=none&type=grpc#
 vless://401374e6-df77-41fb-f638-dad8184f175b@185.236.232.98:80?mode=gun&security=none&encryption=none&type=grpc#@Daily_Configs
 vless://401374e6-df77-41fb-f638-dad8184f175b@185.236.232.98:80?mode=gun&security=none&encryption=none&type=grpc#@NpvV2rayFilTer
@@ -2274,6 +2274,7 @@ vless://96831e7a-17d2-4864-a5d8-1acdf46f624c@62.60.247.164:443?encryption=none&t
 vless://96a1b724-68d2-4f4d-ab25-38ecd83577bc@www.speedtest.net:8443?path=/&security=tls&encryption=none&host=NvOvRkPi12.mInTiVo.oRg&type=ws&sni=NvOvRkPi12.mInTiVo.oRg#کانال+ما+در+تلگرام+@Asak_Vpn+💛
 vless://96a91265-3cb5-49c1-b5ad-842082519b2e@164.92.252.121:443?encryption=none&security=none&type=grpc#✅ @vistav2ray  👈👈کانال ما
 vless://96a91265-3cb5-49c1-b5ad-842082519b2e@164.92.252.121:443?mode=gun&security=none&encryption=none&authority=&type=grpc&serviceName=#@V2rayNGVPN+<=+کانفیگ+رایگان
+vless://96a91265-3cb5-49c1-b5ad-842082519b2e@164.92.252.121:443?mode=gun&security=none&encryption=none&authority=&type=grpc&serviceName=#خرید وی پی ان ارزان @NoraPingBot
 vless://96a91265-3cb5-49c1-b5ad-842082519b2e@164.92.252.121:443?mode=gun&security=none&encryption=none&type=grpc#@V2rayNGVPN <= کانفیگ رایگان
 vless://96a91265-3cb5-49c1-b5ad-842082519b2e@164.92.252.121:443?mode=gun&security=none&encryption=none&type=grpc#Channel : @Mrsoulb 🏴🏳
 vless://96a91265-3cb5-49c1-b5ad-842082519b2e@164.92.252.121:443?mode=gun&security=none&encryption=none&type=grpc#limo
@@ -2703,6 +2704,7 @@ vless://b976b2aa-945e-43e5-bc58-36d77d3a9124@ipw.gfdv54cvghhgfhgj-njhgj64.info:2
 vless://b976b2aa-945e-43e5-bc58-36d77d3a9124@www.speedtest.net:2096?path=/tjkqcpws&security=tls&encryption=none&host=638879176706477448.amsterdam-prx-dnraaal.info&type=ws&sni=638879176706477448.amsterdam-prx-dnraaal.info#telegram 🌺 v2ray_configs_pools
 vless://b976b2aa-945e-43e5-bc58-36d77d3a9124@www.speedtest.net:2096?path=/tjkqcpws&security=tls&encryption=none&host=638879176706477448.amsterdam-prx-dnraaal.info&type=ws&sni=638879176706477448.amsterdam-prx-dnraaal.info#کانال+
 vless://ba12aec7-20c7-4387-99bb-4daa96a13b9d@V2ngFast.huqpmfood.ir:1146?encryption=none&type=xhttp&mode=auto&path=/@V2ngFast-@V2ngFast-@V2ngFast-@V2ngFast-@V2ngFast-@V2ngFast-@V2ngFast-@V2ngFast-@V2ngFast-@V2ngFast-@V2ngFast-@V2ngFast&security=reality&fp=chrome&sni=stackoverflow.com&pbk=l_LBBQyt6du7ZgBadETGtx8zLgUd36-4mZVCSI9qqwA&sid=077dc29a23d311f2#🇩🇪 @V2ngFast
+vless://ba5b3b07-0320-4a44-93c7-f60b211de28a@37.230.48.85:16080?note=---Telegram---@NetifyVPN---Telegram---@NetifyVPN---Telegram---@NetifyVPN---Telegram---@NetifyVPN---&path=/&security=none&encryption=none&host=speed.cloudflare.com&type=ws#🇬🇧[Telegram:NetifyVPN]
 vless://ba5b3b07-0320-4a44-93c7-f60b211de28a@37.230.48.85:16080?path=/&security=&encryption=none&host=speed.cloudflare.com&type=ws#🇫🇷@FreakConfig
 vless://ba5b3b07-0320-4a44-93c7-f60b211de28a@37.230.48.85:16080?path=/&security=none&encryption=none&host=speed.cloudflare.com&type=ws#@Daily_Configs
 vless://ba5b3b07-0320-4a44-93c7-f60b211de28a@37.230.48.85:16080?path=/&security=none&encryption=none&host=speed.cloudflare.com&type=ws#@meli_proxyy
@@ -3174,7 +3176,6 @@ vless://df0680ca-e43c-498d-ed86-8e196eedd012@185.234.66.104:8880?mode=gun&securi
 vless://df0680ca-e43c-498d-ed86-8e196eedd012@185.234.66.104:8880?mode=gun&security=none&encryption=none&type=grpc#@sunflowerplato🌻
 vless://df0680ca-e43c-498d-ed86-8e196eedd012@185.234.66.104:8880?mode=gun&security=none&encryption=none&type=grpc#@v2raymtm
 vless://df0680ca-e43c-498d-ed86-8e196eedd012@185.234.66.104:8880?mode=gun&security=none&encryption=none&type=grpc#TELEGRAM @MTMVPN
-vless://df0680ca-e43c-498d-ed86-8e196eedd012@185.234.66.104:8880?note=---Telegram---@NetifyVPN---Telegram---@NetifyVPN---Telegram---@NetifyVPN---Telegram---@NetifyVPN---&mode=gun&security=none&encryption=none&type=grpc#🇲🇩[Telegram:NetifyVPN]
 vless://df0680ca-e43c-498d-ed86-8e196eedd012@185.234.66.106:8880?mode=gun&security=none&encryption=none&authority=/?BIA_TELEGRAM (@AZARBAYJAB1) TM (@AZARBAYJAB1) TM (@AZARBAYJAB1) TM (@AZARBAYJAB1) TM (@AZARBAYJAB1) TM (@AZARBAYJAB1)&type=grpc&sni=---@AZARBAYKAB1---@AZARBAYJAB1---@AZARBAYJAB1---@AZARBAYJAB1---@AZARBAYJAB1#🇹🇷TM-(AZARBAYJAB1) GPRS
 vless://df0680ca-e43c-498d-ed86-8e196eedd012@185.234.66.75:8880?mode=gun&security=none&encryption=none&authority=/?BIA_TELEGRAM (@AZARBAYJAB1) TM (@AZARBAYJAB1) TM (@AZARBAYJAB1) TM (@AZARBAYJAB1) TM (@AZARBAYJAB1) TM (@AZARBAYJAB1)&type=grpc&sni=---@AZARBAYKAB1---@AZARBAYJAB1---@AZARBAYJAB1---@AZARBAYJAB1---@AZARBAYJAB1#🇹🇷TM-(AZARBAYJAB1) GPRS
 vless://df0680ca-e43c-498d-ed86-8e196eedd012@185.234.66.76:8880?mode=gun&security=none&encryption=none&type=grpc#@V2rayNGVPN <= کانفیگ رایگان
@@ -3306,6 +3307,7 @@ vless://df0680ca-e43c-498d-ed86-8e196eedd012@195.42.233.124:8880?mode=gun&securi
 vless://df0680ca-e43c-498d-ed86-8e196eedd012@195.42.233.124:8880?mode=gun&security=none&encryption=none&authority=/?BIA_TELEGRAM@MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI&type=grpc#@meli_proxyy
 vless://df0680ca-e43c-498d-ed86-8e196eedd012@195.42.233.124:8880?mode=gun&security=none&encryption=none&type=grpc#@v2ray1_ng
 vless://df0680ca-e43c-498d-ed86-8e196eedd012@195.42.233.124:8880?mode=gun&security=none&encryption=none&type=grpc#limo
+vless://df0680ca-e43c-498d-ed86-8e196eedd012@195.42.233.124:8880?mode=gun&security=none&encryption=none&type=grpc#t.me/entryNET/config=1846539195405412
 vless://df0680ca-e43c-498d-ed86-8e196eedd012@195.42.233.125:8880?mode=gun&security=none&encryption=none&type=grpc#💎کانفیگ های بیشتر در چنل تلگرام💎 Config_Rayegan@
 vless://df0680ca-e43c-498d-ed86-8e196eedd012@195.42.233.127:8880?mode=gun&security=none&encryption=none&authority=/?BIA_TELEGRAM@MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI&fp=chrome&type=grpc#@MARAMBASHI 🩵
 vless://df0680ca-e43c-498d-ed86-8e196eedd012@195.42.233.127:8880?mode=gun&security=none&encryption=none&fp=chrome&type=grpc#@v2raymtm
