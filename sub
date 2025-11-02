@@ -294,7 +294,6 @@ ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpXV21GZDlNQ3NkWWo=@77.83.245.172:443#🇹🇷
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpXVjdoYUdySmpSSTc=@77.83.245.50:443#@AYMH19 کانال تلگرام
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpXamZOMG5jREg4U2FhN0RmSUlyanVS@62.133.63.21:65262#@NpvV2rayFilTer
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpXamZOMG5jREg4U2FhN0RmSUlyanVS@62.133.63.21:65262#Telegram:@tik7net_vpn🇹🇷
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpXamZOMG5jREg4U2FhN0RmSUlyanVS@62.133.63.21:65262#🇹🇷[Telegram:@tik7net_vpn]
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpXc3R1U25sdTRpZUE5TTBM@Peweza2.digipedia.shop:443#telegram 🌟 v2ray_configs_pools
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpZWGdTOENvbVRhbTdxb2VzUGx6bE1v@83.147.216.70:64519#@AYMH19 کانال تلگرام
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpaRENCd0t4clFFVW1FWmMycVEyT0M5@212.192.14.224:57995#@HiByeVPNNBot 👈🌿💎
@@ -510,6 +509,7 @@ trojan://telegram-id-directvpn@13.37.85.76:22223?security=tls&alpn=http/1.1&head
 trojan://telegram-id-directvpn@13.39.154.109:22223?security=tls&alpn=http/1.1&headerType=none&type=tcp&sni=trojan.burgerip.co.uk#OurChannel : @DirectVPN
 trojan://telegram-id-directvpn@13.39.186.136:22223?security=tls&alpn=http/1.1&headerType=none&type=tcp&sni=trojan.burgerip.co.uk#OurChannel : @DirectVPN
 trojan://telegram-id-directvpn@13.39.237.30:22223?security=tls&alpn=http/1.1&headerType=none&type=tcp&sni=trojan.burgerip.co.uk#OurChannel : @DirectVPN
+trojan://telegram-id-directvpn@13.39.70.40:22223?security=tls&alpn=http/1.1&headerType=none&type=tcp&sni=trojan.burgerip.co.uk#OurChannel : @DirectVPN
 trojan://telegram-id-directvpn@15.236.156.19:22223?security=tls&alpn=http/1.1&headerType=none&type=tcp&sni=trojan.burgerip.co.uk#OurChannel : @DirectVPN
 trojan://telegram-id-directvpn@15.236.49.130:22223?security=tls&alpn=http/1.1&headerType=none&type=tcp&sni=trojan.burgerip.co.uk#OurChannel : @DirectVPN
 trojan://telegram-id-directvpn@18.153.165.93:22223?security=tls&alpn=http/1.1&headerType=none&type=tcp&sni=trojan.burgerip.co.uk#OurChannel : @DirectVPN
@@ -534,6 +534,7 @@ trojan://telegram-id-directvpn@51.44.62.62:22223?security=tls&alpn=http/1.1&head
 trojan://telegram-id-directvpn@51.45.22.229:22223?security=tls&headerType=none&type=tcp&sni=trojan.burgerip.co.uk#@Daily_Configs
 trojan://telegram-id-directvpn@52.28.43.123:22223?security=tls&alpn=http/1.1&headerType=none&type=tcp&sni=trojan.burgerip.co.uk#OurChannel : @DirectVPN
 trojan://telegram-id-directvpn@63.177.202.143:22223?security=tls&alpn=http/1.1&headerType=none&type=tcp&sni=trojan.burgerip.co.uk#OurChannel : @DirectVPN
+trojan://telegram-id-directvpn@63.179.158.110:22223?security=tls&alpn=http/1.1&headerType=none&type=tcp&sni=trojan.burgerip.co.uk#OurChannel : @DirectVPN
 trojan://telegram-id-directvpn@63.180.154.44:22223?security=tls&alpn=http/1.1&headerType=none&type=tcp&sni=trojan.burgerip.co.uk#OurChannel : @DirectVPN
 trojan://telegram-id-directvpn@63.180.163.204:22223?security=tls&alpn=http/1.1&headerType=none&type=tcp&sni=trojan.burgerip.co.uk#OurChannel : @DirectVPN
 trojan://telegram-id-privatevpns@63.180.165.233:22222?security=tls&sni=trojan.burgerip.co.uk&alpn=http/1.1&allowInsecure=1&type=tcp&headerType=none#t.me/v2Line | Free | 2825 | Germany
@@ -678,7 +679,6 @@ vless://08cb0591-5193-4a0c-9105-ceb09fba67fe@63.177.241.191:25670?security=none&
 vless://08cb0591-5193-4a0c-9105-ceb09fba67fe@63.178.12.24:25670?security=none&encryption=none&headerType=none&type=tcp#🇩🇪AZARBAYJAB1
 vless://08cb0591-5193-4a0c-9105-ceb09fba67fe@zula.ir:2053?path=/&security=tls&alpn=h3,h2,http/1.1&encryption=none&host=RcLZQ-4925.phoenixappdataf.uk&fp=chrome&type=ws&sni=RcLZQ-4925.phoenixappdataf.uk#@V2rayNGVPN <= کانفیگ رایگان
 vless://08cb0591-5193-4a0c-9105-ceb09fba67fe@zula.ir:2053?path=/&security=tls&alpn=h3,h2,http/1.1&encryption=none&host=RcLZQ-4925.phoenixappdataf.uk&fp=chrome&type=ws&sni=RcLZQ-4925.phoenixappdataf.uk#@meli_proxyy
-vless://08cb0591-5193-4a0c-9105-ceb09fba67fe@zula.ir:2053?path=/&security=tls&alpn=h3,h2,http/1.1&encryption=none&host=RcLZQ-4925.phoenixappdataf.uk&fp=chrome&type=ws&sni=RcLZQ-4925.phoenixappdataf.uk#🇨🇦[Telegram:@tik7net_vpn] ⚡ |
 vless://08cb0591-5193-4a0c-9105-ceb09fba67fe@zula.ir:2053?path=/&security=tls&alpn=h3,h2,http/1.1&encryption=none&host=TUEAF-58650.phoenixappdatag.uk&fp=chrome&type=ws&sni=TUEAF-58650.phoenixappdatag.uk#@V2rayNGVPN <= کانفیگ رایگان
 vless://08cb0591-5193-4a0c-9105-ceb09fba67fe@zula.ir:2053?path=/&security=tls&alpn=h3,h2,http/1.1&encryption=none&host=TUEAF-58650.phoenixappdatag.uk&fp=chrome&type=ws&sni=TUEAF-58650.phoenixappdatag.uk#@meli_proxyy
 vless://08cb0591-5193-4a0c-9105-ceb09fba67fe@zula.ir:2053?path=/&security=tls&alpn=h3,h2,http/1.1&encryption=none&host=TUEAF-58650.phoenixappdatag.uk&fp=chrome&type=ws&sni=TUEAF-58650.phoenixappdatag.uk#🇬🇧[Telegram:@tik7net_vpn] ⚡ |
@@ -2196,7 +2196,6 @@ vless://74e7c336-abf1-44ea-bffa-8a419224ee7a@91.107.245.212:33140?security=reali
 vless://750c5087-ca8d-4878-a30a-15bc8bbadfac@m21a.vip784.com:33801?security=&encryption=none&host=varzesh3.ir&headerType=http&type=tcp#🇬🇧@FreakConfig
 vless://750c5087-ca8d-4878-a30a-15bc8bbadfac@m21a.vip784.com:33801?security=none&encryption=none&host=varzesh3.ir/?BIA_TELEGRAM@MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI&headerType=http&type=tcp#@MARAMBASHI 🧡
 vless://750c5087-ca8d-4878-a30a-15bc8bbadfac@m21a.vip784.com:33801?security=none&encryption=none&host=varzesh3.ir/?BIA_TELEGRAM@MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI&headerType=http&type=tcp#@meli_proxyy
-vless://7556317c-dff6-46e8-ad29-b408f2a6456e@185.18.184.253:2096?path=/Telegram🇨🇳@WangCai2/?ed=2560&security=tls&encryption=none&host=vless.muzheng.top&type=ws&sni=vless.muzheng.top#[Telegram:@tik7net_vpn]- 🇺🇸 ⚡
 vless://7556317c-dff6-46e8-ad29-b408f2a6456e@185.18.184.253:2096?path=/Telegram🇨🇳@WangCai2/?ed=2560&security=tls&encryption=none&host=vless.muzheng.top&type=ws&sni=vless.muzheng.top#🇺🇸@FreakConfig
 vless://7556317c-dff6-46e8-ad29-b408f2a6456e@185.18.184.253:2096?path=/telegram@freecodes&security=tls&encryption=none&host=vless.muzheng.top&type=ws&sni=vless.muzheng.top#🇺🇸@FreakConfig
 vless://7556317c-dff6-46e8-ad29-b408f2a6456e@45.192.224.253:2096?path=/?TELEGRAM-MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI?ed=512&security=tls&encryption=none&host=vless.muzheng.top&type=ws&sni=vless.muzheng.top#@MARAMBASHI 💛
@@ -4102,6 +4101,8 @@ vless://dfa7106c-37a4-461d-8c76-e6dfc0453e95@116.203.87.49:5050?security=none&en
 vless://dfb01e06-7538-424b-8e83-b24d9760ef55@fi.crynasty.ru:443?security=reality&encryption=none&pbk=ai_1ENFq0NM-XYkfQjRp-6J8jytZpFrc9QZusUKVgTg&headerType=none&fp=chrome&spx=/&type=tcp&flow=xtls-rprx-vision&sni=fi.crynasty.ru&sid=c92c#All-@V2ray_Alpha--21
 vless://dfb01e06-7538-424b-8e83-b24d9760ef55@fi.crynasty.ru:443?security=reality&encryption=none&pbk=ai_1ENFq0NM-XYkfQjRp-6J8jytZpFrc9QZusUKVgTg&headerType=none&fp=chrome&type=tcp&flow=xtls-rprx-vision&sni=fi.crynasty.ru&sid=c92c#All-@V2ray_Alpha--24
 vless://e083c720-579f-4927-a561-673ab5d64d68@62.60.247.164:17226?type=grpc&serviceName=/@MdVpnSec----@MdVpnSec----@MdVpnSec----@MdVpnSec----@MdVpnSec----@MdVpnSec----@MdVpnSec----@MdVpnSec----@MdVpnSec----@MdVpnSec----@MdVpnSec----@MdVpnSec&authority=&security=reality&pbk=uWfe2A9RpUjC9VzEsRr2I-i5Z-mAWSZlDQ107NbJA0g&fp=chrome&sni=tgju.org&sid=fad1783730&spx=/#MdVpnSec
+vless://e09bb774-626f-4dcd-8830-7b9207513cf7@am.sephost.de:8087?security=reality&encryption=none&pbk=cBiruUOymQvzSQnjAD7aaFXgZ45EDbVAEaxf3zxbg1o&headerType=none&fp=chrome&type=tcp&sni=journalofbigdata.springeropen.com&sid=fd7cbbe42ad29796#🇦🇲 Telegram:@tik7net_vpn (Game 🎮)
+vless://e09bb774-626f-4dcd-8830-7b9207513cf7@fn.sephost.de:8085?security=reality&encryption=none&pbk=OIYG0kOVwCLP_Zkw_-uKRwX0jCcJkZxMADpTML4n0yU&headerType=none&fp=chrome&type=tcp&sni=www.journalofbigdata.springeropen.com&sid=9b1a0779152db496#🇫🇮 Telegram:@tik7net_vpn (Youtube Ads ⛔)
 vless://e1103da3-811a-4543-a1db-2bdf31a895dd@m58a.vip784.com:33801?security=none&encryption=none&host=varzesh3.ir/?BIA_TELEGRAM@MARAMBASHI_MARAMBASHI_MARAMBASHI&headerType=http&type=tcp#💎کانفیگ های بیشتر در چنل تلگرام💎 Config_Rayegan@
 vless://e137be9d-ac3a-4d54-897d-6a706f34795f@195.42.233.149:443?path=/cdfighws?ed=2048@HiByeVPNN--@HiByeVPNN--@HiByeVPNN--@HiByeVPNN--@HiByeVPNN--@HiByeVPNN--@HiByeVPNN--@HiByeVPNN--@HiByeVPNN--@HiByeVPNN--@HiByeVPNN--@HiByeVPNN--@HiByeVPNN&security=tls&encryption=none&type=ws#@HiByeVPNN👈⚡❤️‍🔥
 vless://e137be9d-ac3a-4d54-897d-6a706f34795f@195.42.233.149:443?path=/cdfighws?ed=2048HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN&security=tls&encryption=none&type=ws#@HiByeVPNN👈⚡❤️‍🔥
