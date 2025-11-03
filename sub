@@ -76,7 +76,6 @@ hysteria2://Yet-Another-Public-Config-1@206.71.158.37:35000?security=tls&obfs=sa
 hysteria2://Yet-Another-Public-Config-1@[2a14:3f87:f001:13::a]:35200?security=tls&obfs=salamander&obfs-password=Yet-Another-Public-Config-1&insecure=1&sni=YAPC-1.afshin.ir#All--@V2rayAlpha--8
 hysteria2://Yet-Another-Public-Config-1@[2a14:3f87:f001:13::a]:36400?security=tls&obfs=salamander&obfs-password=Yet-Another-Public-Config-1&insecure=1&sni=YAPC-1.afshin.ir#All-@V2rayAlpha--14
 hysteria2://Yet-Another-Public-Config-1@yapc-1.adamhayward.co.uk:35000?security=tls&obfs=salamander&obfs-password=Yet-Another-Public-Config-1&insecure=1&sni=YAPC-1.afshin.ir#@Tunder_vpn
-hysteria2://Yet-Another-Public-Config-1@yapc-1.adamhayward.co.uk:35000?security=tls&obfs=salamander&obfs-password=Yet-Another-Public-Config-1&insecure=1&sni=YAPC-1.afshin.ir#🇳🇱@FreakConfig
 hysteria2://Yet-Another-Public-Config-1@yapc-1.adamhayward.co.uk:36300?security=tls&obfs=salamander&obfs-password=Yet-Another-Public-Config-1&insecure=0&sni=YAPC-1.afshin.ir#💎کانفیگ های بیشتر در چنل تلگرام💎 Config_Rayegan@
 hysteria2://Yet-Another-Public-Config-1@yapc-1.adamhayward.co.uk:36300?security=tls&obfs=salamander&obfs-password=Yet-Another-Public-Config-1&insecure=1&sni=YAPC-1.afshin.ir#🇳🇱@FreakConfig
 hysteria2://Yet-Another-Public-Config-1@yapc-1.adamhayward.co.uk:36600?security=tls&obfs=salamander&obfs-password=Yet-Another-Public-Config-1&insecure=0&sni=YAPC-1.afshin.ir#@NpvV2rayFilTer
@@ -107,7 +106,6 @@ hysteria2://c3054d61-c708-4594-9797-f50acd24de2a@qing-lu.mxtn.net:443?security=t
 hysteria2://dongtaiwang.com@51.159.111.32:5355?security=tls&insecure=1&sni=www.bing.com#All--@V2rayAlpha--1
 hysteria2://dongtaiwang.com@[2001:bc8:32d7:302::11]:20088?security=tls&insecure=1&sni=apple.com#MCI-@V2ray_Alpha--3
 hysteria2://dongtaiwang.com@[2001:bc8:32d7:302::11]:20088?security=tls&insecure=1&sni=🔒#@V2rayNGVPN <= کانفیگ رایگان
-hysteria2://dongtaiwang.com@[2001:bc8:32d7:302::11]:20088?security=tls&insecure=1&sni=🔒#🇨🇵@FreakConfig
 hysteria2://faa8b629-13ea-4ccd-94dd-ff1615cb1ba1@de2.oomz.ru:30000?security=tls&insecure=1&sni=bing.com#All--@V2rayAlpha--2
 hysteria2://faa8b629-13ea-4ccd-94dd-ff1615cb1ba1@de3.oomz.ru:30000?security=tls&insecure=1&sni=bing.com#@sunflowerplato🌻
 hysteria2://faa8b629-13ea-4ccd-94dd-ff1615cb1ba1@de3.oomz.ru:30000?security=tls&insecure=1&sni=bing.com#@v2ray1_ng
@@ -428,7 +426,6 @@ ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpvWklvQTY5UTh5aGNRVjhrYTNQYTNB@45.87.175.69:8
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpvWklvQTY5UTh5aGNRVjhrYTNQYTNB@45.87.175.69:8080?type=tcp#𝗝𝗼𝗶𝗻 ➠AKLISvpn 🇮🇹
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpvWklvQTY5UTh5aGNRVjhrYTNQYTNB@45.87.175.92:8080#@AYMH19 کانال تلگرام
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpvYUJNTmJTT055UEREUWhFQXBfc2ln@vip-79.f-sub.cfd:1645#@Asak_Vpn+🏴󠁧󠁢󠁥󠁮󠁧󠁿
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpwNzhuYUNmMkVmT2xSU0xUWDB3RlZ4@71.19.148.143:443#🇺🇲@FreakConfig
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpwVFViNFl1U21Qb1NKVDRiWVVZZWUy@83.147.216.70:64519#@AYMH19 کانال تلگرام
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpxWHZPN3pZVTdLZWFCME1kN0RRTG93@51.195.119.47:1080#@AYMH19 کانال تلگرام
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpxWHZPN3pZVTdLZWFCME1kN0RRTG93@51.195.119.47:1080#💯T.me/Asak_Vpn💯
@@ -526,7 +523,6 @@ trojan://telegram-id-directvpn@15.236.49.130:22223?security=tls&alpn=http/1.1&he
 trojan://telegram-id-directvpn@18.153.165.93:22223?security=tls&alpn=http/1.1&headerType=none&type=tcp&sni=trojan.burgerip.co.uk#OurChannel : @DirectVPN
 trojan://telegram-id-directvpn@18.157.122.16:22223?security=tls&alpn=http/1.1&headerType=none&type=tcp&sni=trojan.burgerip.co.uk#OurChannel : @DirectVPN
 trojan://telegram-id-directvpn@18.158.204.71:22223?security=tls&alpn=http/1.1&headerType=none&type=tcp&sni=trojan.burgerip.co.uk#OurChannel : @DirectVPN
-trojan://telegram-id-directvpn@18.193.169.108:22223?security=tls&alpn=http/1.1&headerType=none&type=tcp&sni=trojan.burgerip.co.uk#OurChannel : @DirectVPN
 trojan://telegram-id-directvpn@18.199.216.104:22223?security=tls&alpn=http/1.1&headerType=none&type=tcp&sni=trojan.burgerip.co.uk#OurChannel : @DirectVPN
 trojan://telegram-id-directvpn@3.126.173.69:22223?security=tls&alpn=http/1.1&headerType=none&type=tcp&sni=trojan.burgerip.co.uk#OurChannel : @DirectVPN
 trojan://telegram-id-directvpn@3.126.224.170:22223?security=tls&alpn=http/1.1&headerType=none&type=tcp&sni=trojan.burgerip.co.uk#OurChannel : @DirectVPN
@@ -534,13 +530,12 @@ trojan://telegram-id-directvpn@3.69.249.113:22223?security=tls&alpn=http/1.1&hea
 trojan://telegram-id-directvpn@3.72.188.109:22223?security=tls&alpn=http/1.1&headerType=none&type=tcp&sni=trojan.burgerip.co.uk#OurChannel : @DirectVPN
 trojan://telegram-id-directvpn@3.75.116.251:22223?security=tls&alpn=http/1.1&headerType=none&type=tcp&sni=trojan.burgerip.co.uk#OurChannel : @DirectVPN
 trojan://telegram-id-directvpn@3.77.167.197:22223?security=tls&alpn=http/1.1&headerType=none&type=tcp&sni=trojan.burgerip.co.uk#OurChannel : @DirectVPN
+trojan://telegram-id-directvpn@3.77.170.86:22223?security=tls&alpn=http/1.1&headerType=none&type=tcp&sni=trojan.burgerip.co.uk#OurChannel : @DirectVPN
 trojan://telegram-id-directvpn@3.77.95.37:22223?security=tls&alpn=http/1.1&headerType=none&type=tcp&sni=trojan.burgerip.co.uk#OurChannel : @DirectVPN
 trojan://telegram-id-directvpn@3.78.19.159:22223?security=tls&alpn=http/1.1&headerType=none&type=tcp&sni=trojan.burgerip.co.uk#OurChannel : @DirectVPN
 trojan://telegram-id-directvpn@35.157.82.27:22223?security=tls&alpn=http/1.1&headerType=none&type=tcp&sni=trojan.burgerip.co.uk#OurChannel : @DirectVPN
 trojan://telegram-id-directvpn@35.181.212.41:22223?security=tls&alpn=http/1.1&headerType=none&type=tcp&sni=trojan.burgerip.co.uk#OurChannel : @DirectVPN
 trojan://telegram-id-directvpn@35.181.254.59:22223?security=tls&alpn=http/1.1&headerType=none&type=tcp&sni=trojan.burgerip.co.uk#OurChannel : @DirectVPN
-trojan://telegram-id-directvpn@35.181.92.88:22223?security=tls&alpn=http/1.1&headerType=none&type=tcp&sni=trojan.burgerip.co.uk#OurChannel : @DirectVPN
-trojan://telegram-id-directvpn@51.44.114.202:22223?security=tls&alpn=http/1.1&headerType=none&type=tcp&sni=trojan.burgerip.co.uk#OurChannel : @DirectVPN
 trojan://telegram-id-directvpn@51.44.47.126:22223?security=tls&alpn=http/1.1&headerType=none&type=tcp&sni=trojan.burgerip.co.uk#OurChannel : @DirectVPN
 trojan://telegram-id-directvpn@51.44.62.62:22223?security=tls&alpn=http/1.1&headerType=none&type=tcp&sni=trojan.burgerip.co.uk#OurChannel : @DirectVPN
 trojan://telegram-id-directvpn@52.28.43.123:22223?security=tls&alpn=http/1.1&headerType=none&type=tcp&sni=trojan.burgerip.co.uk#OurChannel : @DirectVPN
@@ -1384,7 +1379,6 @@ vless://3a4524bb-5d17-4c09-b523-6ab1e1a41d81@45.12.135.7:8443?security=reality&e
 vless://3a4524bb-5d17-4c09-b523-6ab1e1a41d81@45.12.135.7:8443?security=reality&encryption=none&pbk=blSlAMMTv5UdIZiQd6VtBlS7kfZJ9xpw9H95Ouohbxs&headerType=none&fp=chrome&type=tcp&flow=xtls-rprx-vision&sni=ya.ru&sid=4bb9dbdad476124c#🇫🇮@FreakConfig
 vless://3a4524bb-5d17-4c09-b523-6ab1e1a41d81@45.12.135.7:8443?security=reality&encryption=none&pbk=blSlAMMTv5UdIZiQd6VtBlS7kfZJ9xpw9H95Ouohbxs&host=/?BIA_TELEGRAM@MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI&headerType=none&fp=chrome&type=tcp&flow=xtls-rprx-vision&sni=ya.ru&sid=4bb9dbdad476124c#@MARAMBASHI 🧡
 vless://3a4524bb-5d17-4c09-b523-6ab1e1a41d81@45.12.135.7:8443?security=reality&encryption=none&pbk=blSlAMMTv5UdIZiQd6VtBlS7kfZJ9xpw9H95Ouohbxs&host=/?BIA_TELEGRAM@MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI&headerType=none&fp=chrome&type=tcp&flow=xtls-rprx-vision&sni=ya.ru&sid=4bb9dbdad476124c#@meli_proxyy
-vless://3a4524bb-5d17-4c09-b523-6ab1e1a41d81@45.12.135.7:8443?security=reality&encryption=none&pbk=blSlAMMTv5UdIZiQd6VtBlS7kfZJ9xpw9H95Ouohbxs&host=/?BIA_TELEGRAM@MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI&headerType=none&fp=chrome&type=tcp&flow=xtls-rprx-vision&sni=ya.ru&sid=4bb9dbdad476124c#🇫🇮@FreakConfig
 vless://3afc3fc3-2ae4-4f76-928d-30fe47f5e6d6@104.17.147.22:443?path=//Join---PLANB_PROXY?ed=2560&security=tls&alpn=http/1.1&encryption=none&host=1z7cvlxvwpoqgvksg5f3zvq0xciifo2b.pages.dev&fp=chrome&type=ws&sni=pages.dev#💎کانفیگ های بیشتر در چنل تلگرام💎 Config_Rayegan@
 vless://3b0674a5-d2c3-4e42-85c1-0e99e1347545@194.182.79.240:14335?mode=gun&security=&encryption=none&type=grpc&serviceName=ZEDMODEON-ZEDMODEON-ZEDMODEON-bia-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON#@confiig_hub
 vless://3b0674a5-d2c3-4e42-85c1-0e99e1347545@194.182.79.240:14335?mode=gun&security=none&encryption=none&type=grpc&serviceName=ZEDMODEON-ZEDMODEON-ZEDMODEON-bia-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON#@bored_vpn
@@ -2234,7 +2228,6 @@ vless://74c0af7c-8482-4b4e-b067-ea456a80cdb7@fr.monkeyisland.life:443?security=r
 vless://74c0af7c-8482-4b4e-b067-ea456a80cdb7@se.monkeyisland.life:443?security=reality&encryption=none&pbk=NvdLgcQKj0XeAmqIpCEdvcsgfNrtSyfGnQYNdZ7eTFE&headerType=none&fp=chrome&type=tcp&flow=xtls-rprx-vision&sni=se.monkeyisland.life&sid=08aa0813199a4c38#@meli_proxyy
 vless://74c0af7c-8482-4b4e-b067-ea456a80cdb7@se.monkeyisland.life:443?security=reality&encryption=none&pbk=NvdLgcQKj0XeAmqIpCEdvcsgfNrtSyfGnQYNdZ7eTFE&headerType=none&fp=chrome&type=tcp&flow=xtls-rprx-vision&sni=se.monkeyisland.life&sid=08aa0813199a4c38#🏴‍☠️@FreakConfig
 vless://74e7c336-abf1-44ea-bffa-8a419224ee7a@91.107.245.212:33140?security=reality&encryption=none&pbk=BTsXykRA0mUv-PP6ncIQqjBMz_HRueLob9CNHT9QpGM&host=/?BIA_TELEGRAM@MARAMBASHI_MARAMBASHI_MARAMBASHI&headerType=none&fp=chrome&spx=/&type=tcp&sni=addons.mozilla.org&sid=53#💎کانفیگ های بیشتر در چنل تلگرام💎 Config_Rayegan@
-vless://750c5087-ca8d-4878-a30a-15bc8bbadfac@m21a.vip784.com:33801?security=&encryption=none&host=varzesh3.ir&headerType=http&type=tcp#🇬🇧@FreakConfig
 vless://750c5087-ca8d-4878-a30a-15bc8bbadfac@m21a.vip784.com:33801?security=none&encryption=none&host=varzesh3.ir&headerType=http&type=tcp#@Tunder_vpn
 vless://750c5087-ca8d-4878-a30a-15bc8bbadfac@m21a.vip784.com:33801?security=none&encryption=none&host=varzesh3.ir&headerType=http&type=tcp#@v2ray1_ng
 vless://750c5087-ca8d-4878-a30a-15bc8bbadfac@m21a.vip784.com:33801?security=none&encryption=none&host=varzesh3.ir/?BIA_TELEGRAM@MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI&headerType=http&type=tcp#@MARAMBASHI 🧡
@@ -2516,7 +2509,6 @@ vless://941d092e-8313-452a-ba21-c9995dcba79d@104.16.110.49:80?path=/?ed=2570&sec
 vless://9422b7fa-4192-4309-9875-0c1556a6e6f9@135.125.245.195:443?path=/linkvkwss&security=tls&encryption=none&host=bLazE-de-195.mETiKAPpS.COm&type=ws&sni=bLazE-de-195.mETiKAPpS.COm#@sunflowerplato🌻
 vless://947a21aa-8e59-4cf5-b083-d69b42fa162d@us1.projecthope.ir:2053?mode=gun&security=tls&alpn=h2,http/1.1&encryption=none&fp=chrome&type=grpc&serviceName=@NoForcedHeaven@NoForcedHeaven@NoForcedHeaven&sni=us1.projecthope.ir#@NoForcedHeaven🇺🇸
 vless://949e6151-6899-4605-f2d1-51570f60d51d@65.109.221.186:2083?type=grpc&mode=gun&serviceName=melov2ray&authority=@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn&security=reality&fp=chrome&sni=khamenei.ir&pbk=mDWXgatiJqUc4fmeDQqGusEBIhjFVrQ85y_ZUfNpFV8&sid=54602915a7&spx=/#🇫🇮 @Evay_vpn
-vless://94b249c1-5fa5-4c38-bd27-13df65a61318@kolhozkey1.com:6033?security=reality&encryption=none&pbk=mDXYds1gITU7tWHpZPZ8-ufrqTV1TU7-c-hXtpLNaDo&headerType=none&type=tcp&flow=xtls-rprx-vision&sni=amazon.it&sid=59c1a41ef8721307#@V2rayNGVPN <= کانفیگ رایگان
 vless://94b249c1-5fa5-4c38-bd27-13df65a61318@kolhozkey1.com:6033?security=reality&encryption=none&pbk=mDXYds1gITU7tWHpZPZ8-ufrqTV1TU7-c-hXtpLNaDo&headerType=none&type=tcp&flow=xtls-rprx-vision&sni=amazon.it&sid=59c1a41ef8721307#@𝗦𝗞𝗬𝗣𝗥𝗢_𝗩𝗣𝗡 کانال تلگرامی
 vless://94f51128-b5eb-4eb6-8010-12b7c55e559b@141.95.52.109:80?path=/vless/&security=none&encryption=none&type=ws#💎کانفیگ های بیشتر در چنل تلگرام💎 Config_Rayegan@
 vless://95125edf-cb36-45d1-f6bb-fb49a74cc23c@Www.Speedtest.net:2095?type=httpupgrade&path=/telegram,@BINEXTIFY-telegram,@BINEXTIFY-telegram,@BINEXTIFY-telegram,@BINEXTIFY-telegram,@BINEXTIFY-telegram,@BINEXTIFY-telegram,@BINEXTIFY-telegram,@BINEXTIFY-telegram,@BINEXTIFY?ed=2560&host=binextv.iransheep.web.tr.&security=none#BinexTiFy🥦-y5a3h3fy
@@ -4193,7 +4185,6 @@ vless://df0680ca-e43c-498d-ed86-8e196eedd012@95.164.88.186:8880?encryption=none&
 vless://df0680ca-e43c-498d-ed86-8e196eedd012@95.164.88.186:8880?encryption=none&security=none&type=grpc#@Daily_Configs
 vless://df0680ca-e43c-498d-ed86-8e196eedd012@95.164.88.186:8880?mode=gun&security=none&encryption=none&fp=chrome&type=grpc#All-@V2ray_Alpha--15
 vless://df0680ca-e43c-498d-ed86-8e196eedd012@95.164.88.186:8880?mode=gun&security=none&encryption=none&fp=chrome&type=grpc#🇬🇧@FreakConfig
-vless://df0680ca-e43c-498d-ed86-8e196eedd012ijnqibqygqo98710@138.199.175.204:8880?type=grpc&mode=gun&security=none#&v2ray_cartel
 vless://df0e67fc-a6e5-41d8-95fd-97dfb96d2802@207.154.236.4:20087?security=none&encryption=none&headerType=none&type=tcp#🇩🇪All¹ | @BigSmoke_Config
 vless://df76895d-bc38-4465-b7ce-64f5cd4ede3f@lii.bliscorp.org:30849?encryption=none&type=tcp&headerType=http&host=JouRNaloFbIgdATA.SpRinGeropEn.coM.&security=none#🇨🇭 | @EVAY_VPN
 vless://dfa7106c-37a4-461d-8c76-e6dfc0453e95@116.203.87.49:5050?security=none&encryption=none&host=speedtest.net&headerType=http&type=tcp#Channel : @Mrsoulb 🏴🏳
