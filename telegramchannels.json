@@ -47,7 +47,6 @@
     "miniproxy",
     "mrsoulb",
     "mtmvpn",
-    "netifyvpn",
     "netmellianti",
     "npvv2rayfilter",
     "nufilter",
@@ -86,5 +85,6 @@
     "vistav2ray",
     "vmessorg",
     "vmessprotocol",
-    "vpn_room"
+    "vpn_room",
+    "xpnteam"
 ]
