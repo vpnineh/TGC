@@ -32,6 +32,7 @@
     "configraygan",
     "configshub",
     "configv2rayng",
+    "confingfree11",
     "cpy_teel",
     "customvpnserver",
     "daily_configs",
@@ -79,6 +80,7 @@
     "pardazeshvpn",
     "pewezavpn",
     "privatevpns",
+    "proxy_kafee",
     "proxy_v2ry",
     "prrofile_purple",
     "qv2raychannel",
@@ -108,7 +110,6 @@
     "v2ray_alpha",
     "v2ray_configs_pools",
     "v2ray_free_conf",
-    "v2ray_proxy_npv",
     "v2ray_rolly",
     "v2ray_youtube",
     "v2rayargon",
@@ -128,7 +129,6 @@
     "vpn_mikey",
     "vpn_room",
     "vpnbaz",
-    "vpnonlin01",
     "vpnqavi",
     "vpnz4",
     "wedbaztel",
@@ -136,5 +136,6 @@
     "xamyraly",
     "xixv2ray",
     "zdyz2",
+    "zohalserver",
     "zvpnn"
 ]
