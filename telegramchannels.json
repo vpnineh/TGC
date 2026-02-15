@@ -191,7 +191,6 @@
     "v2box_confiig",
     "v2feri",
     "v2ferifree",
-    "v2ferl",
     "v2fetch",
     "v2graphy",
     "v2iran98",
@@ -204,11 +203,9 @@
     "v2ray20261",
     "v2ray313",
     "v2ray_alpha",
-    "v2ray_configs_pool",
     "v2ray_configs_pools",
     "v2ray_confing33",
     "v2ray_extractor",
-    "v2ray_fa3t",
     "v2ray_free_conf",
     "v2ray_ng",
     "v2ray_vmess_free",
@@ -263,5 +260,6 @@
     "x_ray_vpn1",
     "xsv2ray",
     "yamyamproxy",
+    "zdyz2",
     "zvpnn"
 ]
