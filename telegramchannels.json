@@ -47,7 +47,6 @@
     "chillguy_vpn",
     "cllubvpn",
     "config_proxy",
-    "configir98",
     "configshub2",
     "configv2rayng",
     "configx2ray",
@@ -170,8 +169,8 @@
     "vmesc",
     "vmess_vless_v2rayng",
     "vmesskhodam",
+    "vplustun",
     "vpn_jet7",
-    "vpn_market_v2",
     "vpn_mikey",
     "vpnbaz",
     "vpnfail_news",
@@ -182,6 +181,7 @@
     "white_configs",
     "wibeofme",
     "yamyamproxy",
+    "zakharbarbie",
     "zeos_vpn",
     "zhw_x_club"
 ]
