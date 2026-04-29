@@ -65,7 +65,6 @@
     "configx_ir",
     "customvpnserver",
     "dalton_ping",
-    "do1rcci",
     "drvpn7",
     "electvpn0",
     "ev2rayy",
@@ -108,7 +107,6 @@
     "maznet",
     "mi_pn_official",
     "mmd_adm",
-    "monacovpn",
     "mtmvpn",
     "mtproto_proserver",
     "n1connect",
@@ -163,7 +161,6 @@
     "v2ngfast",
     "v2nodes",
     "v2npv",
-    "v2ra_config",
     "v2ray03",
     "v2ray_alpha",
     "v2ray_configs_pool",
@@ -202,6 +199,7 @@
     "vpnplusee_free",
     "wibeofme",
     "yamyamproxy",
+    "zed_netmeli",
     "zeos_vpn",
     "zhw_x_club"
 ]
